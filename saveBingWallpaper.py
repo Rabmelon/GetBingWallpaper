@@ -9,7 +9,7 @@ import os, re, time
 import requests
 import win32gui, win32con, win32api
 
-save_dir = "D:\\ZLei\\Documents\\Python\\BingWallpaper\\Bing\\"
+save_dir = "D:\\ZLei\\Pictures\\BingWallpaper\\"
 
 
 # 获取当前日期
