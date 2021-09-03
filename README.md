@@ -1,37 +1,9 @@
-# Bing壁纸每日定时下载
+# 下载Bing壁纸并设置为桌面
 
-#### 介绍
-下载Bing壁纸并设置为桌面
+1. saveBingWallpaper.py为主程序，在其中修改图片保存路径和图片文件名规则；
+2. 主程序中可通过注释行设置是否需要设置为桌面；
+3. BingWallpaper.bat为Windows批处理程序，可创建快捷方式放入启动文件夹中，随系统启动（需修改bat文件中的Python路径及py文件路径）；或设置定时启动事件，参考[CSDN文章](https://blog.csdn.net/circle_do/article/details/84861028)；
+4. time为记录当前最新一次下载时间的文件，若当日图片已下载，当日再次调用程序时即跳过；
+5. BingHistory.csv为记录下载历史的表格，含每次下载的日期，copyright信息，以及图片链接，每次下载时更新。
 
-#### 软件架构
-软件架构说明
-
-
-#### 安装教程
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+**自制小程序，欢迎自由修改使用！如有更好的意见欢迎交流沟通！**
