@@ -1,1 +1,1 @@
-D:\Environment\Python38\python.exe D:\ZLei\Documents\Python\BingWallpaper\saveBingWallpaper.py %*
+D:\Environment\Python38\python.exe D:\ZLei\Documents\Git\BingWallpaper\saveBingWallpaper.py %*

@@ -42,7 +42,7 @@ def set_desktop_windows(imagepath):
 
 # 获取今天的图片的url和copyright信息
 def get_bing_info():
-    base_url = "http://cn.bing.com/"
+    base_url = "http://bing.com/"
     query_url = "HPImageArchive.aspx?format=js&idx=0&n=1"
     print("Searching...")
     r = requests.get(base_url + query_url)
@@ -70,6 +70,7 @@ def get_bing_info():
     copyright = copyright.strip().replace('\xf8', ' ')
     copyright = copyright.strip().replace('\xf9', ' ')
     copyright = copyright.strip().replace('?', '_')
+    copyright = copyright.strip().replace(',', '_')
     copyright = copyright.strip().replace('"', '\'')
     copyright = copyright.strip().replace(':', '：')
     # copyright = copyright.strip().replace('/', '|')
